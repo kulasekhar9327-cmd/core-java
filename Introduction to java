@@ -55,3 +55,45 @@ Java was created in james gosling in 1991
 LTS (Long-Term Support): A Java version that receives long-term updates and support.
 
 Remember: Java continuously evolved by introducing new features, improving performance, security, and simplifying programming.
+
+
+data types in java
+primitive data types
+1)numerical 
+*Byte
+*int
+*float
+*double
+*short
+*long
+2)non numerical
+boolean
+*true 
+*false
+char
+non premitive
+*string
+*array
+variables rules
+1. Must start with a letter, underscore (_) or dollar sign ($).
+2. Cannot start with a number.
+3. Cannot contain spaces.
+4. Special characters are not allowed, except _ and $.
+5. Java keywords cannot be used as variable names.
+6. Variable names are case-sensitive.
+7. Can contain letters, digits, underscores and dollar signs after the first character.
+8. Variable names can be of any length.
+
+Method Explanation Table
+
+Here is a clean breakdown of the text displayed in the slide:
+
+Scanner Method	Example Input	Return Type	Description
+nextInt()  	      25	int	Reads a whole integer value.
+nextLong()	      9876543210L	long	Reads a large whole integer value.
+nextFloat()	      85.5f	float	Reads a single-precision decimal number.
+nextDouble()	    25000.75	double	Reads a double-precision decimal number.
+next()	          Venu	String	Reads a single word (stops at a space).
+nextLine()	      Hello Java	String	Reads an entire line of text including spaces.
+next().charAt(0)	A	char	Reads a single character by taking the first character of a string.
+nextBoolean()	    true	boolean	Reads a true or false logical value.
