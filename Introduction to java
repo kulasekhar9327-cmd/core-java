@@ -97,3 +97,8 @@ next()	          Venu	String	Reads a single word (stops at a space).
 nextLine()	      Hello Java	String	Reads an entire line of text including spaces.
 next().charAt(0)	A	char	Reads a single character by taking the first character of a string.
 nextBoolean()	    true	boolean	Reads a true or false logical value.
+
+arthimetic operators
++,-,*,/,%
+rational operators
+==,!=,<,>,<=,>=
