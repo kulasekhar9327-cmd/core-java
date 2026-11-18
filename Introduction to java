@@ -185,3 +185,21 @@ System.out.println(s.contains("Java"));
 
 ### 8. substring()
 Extracts a part of a String.
+
+Here is the text from the screenshot:
+
+### 8. substring()
+Extracts a part of a String.
+String s = "Programming";
+System.out.println(s.substring(0, 4));
+*Output:* `Prog`
+
+### 9. replace()
+Replaces characters or character sequences.
+String s = "Java";
+System.out.println(s.replace('a', 'o'));
+*Output:* `Jovo`
+
+### 10. trim()
+Removes leading and trailing spaces.
+// code continues below in next slide
