@@ -166,3 +166,22 @@ System.out.println(a.equals(b));
 ### 6. equalsIgnoreCase()
 Compares Strings without considering uppercase or lowercase differences.
 // code continues below in next slide
+
+Here is the text from the screenshot:
+
+### 6. equalsIgnoreCase()
+Compares Strings without considering uppercase or lowercase differences.
+String a = "JAVA";
+String b = "java";
+
+System.out.println(a.equalsIgnoreCase(b));
+*Output:* `true`
+
+### 7. contains()
+Checks whether a String contains a particular sequence of characters.
+String s = "Java Programming";
+System.out.println(s.contains("Java"));
+*Output:* `true`
+
+### 8. substring()
+Extracts a part of a String.
