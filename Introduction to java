@@ -146,3 +146,23 @@ System.out.println(s.charAt(1));
 Converts all characters into uppercase.
 String s = "java";
 System.out.println(s.toUpperCase());
+
+Here is the text from the screenshot:
+
+### 4. toLowerCase()
+Converts all characters into lowercase.
+String s = "JAVA";
+System.out.println(s.toLowerCase());
+*Output:* `java`
+
+### 5. equals()
+Compares two Strings based on their content.
+String a = "Java";
+String b = "Java";
+
+System.out.println(a.equals(b));
+*Output:* `true`
+
+### 6. equalsIgnoreCase()
+Compares Strings without considering uppercase or lowercase differences.
+// code continues below in next slide
