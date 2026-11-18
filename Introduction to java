@@ -128,3 +128,21 @@ Jumping statements alter the normal, sequential flow of a program by transferrin
 • return: Exits the current function entirely and optionally sends a value back to the part of the program that called it.
 
 
+Here is the text from the screenshot:
+
+### 1. length()
+Returns the number of characters in a String.
+String s = "Java";
+System.out.println(s.length());
+*Output:* `4`
+
+### 2. charAt()
+Returns the character at a specified index.
+String s = "Java";
+System.out.println(s.charAt(1));
+*Output:* `a`
+
+### 3. toUpperCase()
+Converts all characters into uppercase.
+String s = "java";
+System.out.println(s.toUpperCase());
