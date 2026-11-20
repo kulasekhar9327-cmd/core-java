@@ -198,7 +198,7 @@ System.out.println(s.substring(0, 4));
 Replaces characters or character sequences.
 String s = "Java";
 System.out.println(s.replace('a', 'o'));
-*Output:* `Jovo`
+*Output:* `Javo`
 
 ### 10. trim()
 Removes leading and trailing spaces.
@@ -216,3 +216,4 @@ class B extends class A{
 class Main{
 //obj;
 }
+
