@@ -203,3 +203,16 @@ System.out.println(s.replace('a', 'o'));
 ### 10. trim()
 Removes leading and trailing spaces.
 // code continues below in next slide
+
+
+single inhetitance 
+Syntex:
+class A{
+// block of code;
+}
+class B extends class A{
+//block of code;
+}
+class Main{
+//obj;
+}
