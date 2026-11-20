@@ -133,3 +133,71 @@ class Array {
         System.out.println(" sum of the elements in the array:" +sum);
     }
 }
+
+
+Hybrid inheritance
+
+interface pet{
+    void play();
+}
+class animal{
+    void eat(){
+        System.out.println("animal is eating");
+    }
+}
+class dog extends animal implements pet{
+    public void play(){
+        System.out.println("animal is playing games");
+    }
+    void mam(){
+        System.out.println("mam is playing with animals");
+    }
+
+}
+class cat extends animal implements pet{
+    public void play(){
+        System.out.println("hello world");
+    }
+    void men(){
+        System.out.println("men is playing game");
+    }
+}
+class mulitlevel{
+    public static void main(String args[]){
+        dog obj = new dog();
+        cat obj1 = new cat();
+        obj.eat();
+        obj.mam();
+        obj.play();
+        obj1.eat();
+        obj1.men();
+        obj1.play();
+    }
+}
+Hirerachal
+
+class A{
+    void display(){
+        System.out.println("enter a value");
+    }
+}
+class B extends A{
+    void mam(){
+        System.out.println("enter b value");
+    }
+}
+class C extends A{
+    void vamshi(){
+        System.out.println("enter a vamshi");
+    }
+}
+class hire {
+    public static void main(String[]args){
+        B sc = new B();
+        C s = new C();
+        sc.mam();
+        sc.display();
+        s.vamshi();
+        s.display();
+    }
+}
